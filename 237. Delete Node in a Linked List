@@ -12,6 +12,7 @@ class Solution:
         """
         
         while node.next.next:
+        #node means 
             node.val = node.next.val
             node = node.next
             
